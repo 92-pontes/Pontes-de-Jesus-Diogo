@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(50, 73, 100);
+}
+
+img{
+    max-width: 165px;
+    float: left;
+    border: 2px solid white;
+    margin-right: 20px;
+    border-radius: 5%;
+    padding: 1%;
+       
+}
+
+p{      
+    
+    margin-bottom: 0;
+    text-align: justify;
+    font-size: 100%;
+    padding: 1%;
+    color: white;
+   
+}
+
+h3{
+    background-color: black;
+    color: white;
+   
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(26, 35, 46);
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+#botão-voltar {
+    text-decoration: none;
+    color: yellow;
+    background-color: red;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 8px; 
+    margin: 1%; 
+    border: 1px solid white; 
+}
+
+#botão-inicio {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 1%;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin: 1%;
+   
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(21, 29, 39);
+   
+    
+}
+
+<!--configuração-->
+html, body{
+        width: 100%;
+        overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+        width: 15px;
+}
+
+body::-webkit-scrollbar-track{
+        background: red;
+}
+
+body::-webkit-scrollbar-thumb{
+        background: rgb(50, 73, 100);
+        border-radius: 25px;
+        border: 3px solid white;
+}
+*::selection{
+        color: white;
+        background: red;
+}
+
+
+
+

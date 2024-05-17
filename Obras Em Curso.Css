@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(26, 35, 46);
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+#botão-voltar {
+    text-decoration: none;
+    color: yellow;
+    background-color: red;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 8px;
+    margin: 1%;
+      
+}
